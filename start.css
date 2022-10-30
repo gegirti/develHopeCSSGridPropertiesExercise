@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "areagreen areagreen areagreen"
+    "areayellow areared areablue"
+    "areaorange areaorange areablue"
+}
+#green {
+    grid-area: areagreen;
+}
+#yellow {
+    grid-area: areayellow;
+}
+#orange {
+    grid-area: areaorange;
+}
+#red {
+    grid-area: areared;
+}
+#blue {
+    grid-area: areablue;
+}
