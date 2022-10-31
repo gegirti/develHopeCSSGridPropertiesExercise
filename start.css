@@ -21,3 +21,7 @@ body{
 #blue {
     grid-area: areablue;
 }
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
